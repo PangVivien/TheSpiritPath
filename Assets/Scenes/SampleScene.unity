@@ -573,8 +573,8 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 34
-  orthographic: 1
+  field of view: 50.5
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -600,7 +600,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.91541, y: 2.8818345, z: -57.672073}
+  m_LocalPosition: {x: -21.84, y: 5, z: -14.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -619,6 +619,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   target: {fileID: 754876541}
+  zoomAmount: 2
+  zoomSpeed: 5
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,7 +658,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 0000000069e0abbef114aa9cd31b2998
+  m_ApplyToSortingLayers: 0000000069e0abbef114aa9cd31b2998c3e00f98
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -756,6 +758,7 @@ GameObject:
   - component: {fileID: 754876545}
   - component: {fileID: 754876544}
   - component: {fileID: 754876543}
+  - component: {fileID: 754876548}
   - component: {fileID: 754876547}
   m_Layer: 3
   m_Name: Player
@@ -836,14 +839,14 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1742136365
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 4723107735738678597, guid: 2a50a878e058ea642ad2eaea1232f821, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.10002441, y: 0.12}
+  m_Size: {x: 7.96, y: 9.232575}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -905,7 +908,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 7.421813, y: 6.04}
-    newSize: {x: 0.10002441, y: 0.12}
+    newSize: {x: 7.96, y: 9.232575}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -930,12 +933,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 754876545}
+  speed: 5
   jumpingPower: 10
   fallMultiplier: 2.5
   lowJumpMultiplier: 2
   coyoteTime: 0.1
-  attackCooldown: 0.2
+  attackCooldown: 0.1
+  isDead: 0
   knockbackForce: {x: 5, y: 5}
+  invincibilityDuration: 1
+  isInvincible: 0
 --- !u!114 &754876544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1073,6 +1080,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 754876548}
+        m_TargetAssemblyTypeName: PlayerHeal, Assembly-CSharp
+        m_MethodName: Heal
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: bb238fc4-2069-480b-b8ff-4e04841d749d
+    m_ActionName: 'Player/Heal[/Keyboard/shift,/XInputControllerWindows/buttonEast]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1150,6 +1173,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   startingHealth: 5
+--- !u!114 &754876548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754876536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad5c3c8e9c4dd944b67dd6a6d6e2496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHeal
+  healAmount: 1
+  healTime: 2
+  isHealing: 0
+  cameraFollow: {fileID: 519420033}
 --- !u!1 &806178631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,6 +1611,7 @@ GameObject:
   - component: {fileID: 982326349}
   - component: {fileID: 982326348}
   - component: {fileID: 982326347}
+  - component: {fileID: 982326350}
   - component: {fileID: 982326346}
   m_Layer: 0
   m_Name: EnemyTest
@@ -1592,6 +1632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8193b9001128c874da1d49c71138de43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
+  damageCollider: {fileID: 982326347}
+  Invincibility: 2
   Damage: 1
 --- !u!61 &982326347
 BoxCollider2D:
@@ -1683,7 +1725,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -1742136365
+  m_SortingLayerID: -1743789885
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
@@ -1706,12 +1748,58 @@ Transform:
   m_GameObject: {fileID: 982326345}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.58, y: -2.47, z: 0}
+  m_LocalPosition: {x: -6.26, y: -2.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &982326350
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982326345}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.4405051, y: 0.66432595}
+  m_EdgeRadius: 0
 --- !u!1 &1047726058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2334,7 +2422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2862100879794955979, guid: 64be2fca9d510af45838f05856929740, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 64be2fca9d510af45838f05856929740, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

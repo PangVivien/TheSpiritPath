@@ -11,14 +11,14 @@ public class Health : MonoBehaviour
         currentHealth = startingHealth;
     }
 
-    public void TakeDamage(float _damage)
+    public void TakeDamage(float _damage, Vector3 hitSource)
     {
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 
-        if(currentHealth > 0)
+        if (currentHealth > 0)
         {
             //Player Hurt
-            Vector2 knockbackDir = (transform.position - PlayerController.Instance.transform.position).normalized;
+            Vector2 knockbackDir = (transform.position - hitSource).normalized;
             PlayerController.Instance.TakeDamage(1, knockbackDir);
         }
         else
@@ -28,12 +28,8 @@ public class Health : MonoBehaviour
         }
     }
 
-    // For Testing
-    //public void Damage(InputAction.CallbackContext context)
-    //{
-    //    if (context.performed)
-    //    {
-    //        TakeDamage(1);
-    //    }
-    //}
+    public void Heal(float amount)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, startingHealth);
+    }
 }

@@ -10,12 +10,12 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
 
     private float horizontal;
-    private float speed = 5f;
+    public float speed = 5f;
 
     public float jumpingPower = 10f;
-    public float fallMultiplier = 2.5f;        // gravity boost when falling
-    public float lowJumpMultiplier = 2f;       // gravity boost when releasing jump early
-    public float coyoteTime = 0.1f;            // short buffer after leaving ground
+    public float fallMultiplier = 2.5f;        // Gravity Boost when Falling
+    public float lowJumpMultiplier = 2f;       // Gravity Boost when Releasing
+    public float coyoteTime = 0.1f;            // Short Buffer after Leave Ground
     private float coyoteTimeCounter;
 
     private bool isFacingRight = true;
@@ -24,10 +24,15 @@ public class PlayerController : MonoBehaviour
     private bool canAttack = true;
     public float attackCooldown = 0.1f;
 
-    private bool isDead = false;
-    public Vector2 knockbackForce = new Vector2(5f, 5f);
+    public bool isDead = false;
+    public Vector2 knockbackForce = new Vector2(20f, 20f);
+
+    [Header("Damage Settings")]
+    public float invincibilityDuration = 2; 
+    [HideInInspector] public bool isInvincible = false;
 
     public static PlayerController Instance;
+    // private PlayerHeal playerHeal; 
 
     private void Awake()
     {
@@ -39,6 +44,8 @@ public class PlayerController : MonoBehaviour
         {
             Instance = this;
         }
+
+        // playerHeal = GetComponent<PlayerHeal>();
     }
 
 
@@ -129,24 +136,33 @@ public class PlayerController : MonoBehaviour
 
         GetComponent<PlayerInput>().enabled = false;
 
+        // Rumble Controller
+        StartCoroutine(Rumble(0.5f));
+
         // StartCoroutine(Respawn());
     }
 
     public void TakeDamage(int dmg, Vector2 hitDirection)
     {
-        if (isDead) return;
+        if (isDead || isInvincible) return;
 
-        // Apply knockback
-        rb.linearVelocity = Vector2.zero; // reset current velocity
-        rb.AddForce(new Vector2(hitDirection.x * knockbackForce.x, knockbackForce.y), ForceMode2D.Impulse);
+        // Apply KnockBack
+        rb.linearVelocity = new Vector2(hitDirection.x * knockbackForce.x, knockbackForce.y);
+
+        animator.SetTrigger("KnockBack");
+        StartCoroutine(HitFreeze());
+        StartCoroutine(HitShake());
+
+        // Rumble Controller
+        StartCoroutine(Rumble(0.25f));
+
+        // Add Invincibility
+        StartCoroutine(InvincibilityCoroutine());
     }
 
     public void Attack(InputAction.CallbackContext context)
     {
-        //if (context.performed)
-        //{
-        //    animator.SetTrigger("isAttacking"); 
-        //}
+
 
         if (context.performed && canAttack)
         {
@@ -165,8 +181,73 @@ public class PlayerController : MonoBehaviour
         canAttack = true;
     }
 
+    private IEnumerator HitFreeze()
+    {
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(0.05f);
+        Time.timeScale = 1f;
+    }
+    private IEnumerator HitShake()
+    {
+        Vector3 originalPos = transform.localPosition;
 
-    private bool IsGrounded()
+        for (int i = 0; i < 6; i++)
+        {
+            transform.localPosition = originalPos + (Vector3)Random.insideUnitCircle * 0.05f;
+            yield return null;
+        }
+
+        transform.localPosition = originalPos;
+    }
+
+    private IEnumerator Rumble(float duration)
+    {
+        if (Gamepad.current == null)
+            yield break;
+
+        float timer = 0f;
+
+        while (timer < duration)
+        {
+            float t = timer / duration;
+
+            // EaseIn & EaseOut
+            float intensity = Mathf.Sin(t * Mathf.PI);
+
+            Gamepad.current.SetMotorSpeeds(intensity * 0.5f, intensity);
+
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        Gamepad.current.SetMotorSpeeds(0, 0);
+    }
+
+    private IEnumerator InvincibilityCoroutine()
+    {
+        isInvincible = true;
+
+        // Color Glitch
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        float flashInterval = 0.1f;
+        float timer = 0f;
+
+        bool isWhite = true;
+
+        while (timer < invincibilityDuration)
+        {
+            sr.color = isWhite ? Color.black : Color.white;
+            isWhite = !isWhite;
+
+            timer += flashInterval;
+            yield return new WaitForSeconds(flashInterval);
+        }
+        sr.color = Color.white;
+
+        isInvincible = false;
+    }
+
+    public bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
