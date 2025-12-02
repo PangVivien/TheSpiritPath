@@ -11,6 +11,10 @@ public class HealthBar : MonoBehaviour
     private Vector3 originalPos;
     private float lastHealth;
 
+    [SerializeField] private float shakeDuration = 0.25f; 
+    [SerializeField] private float shakeMagnitude = 15f;  
+    [SerializeField] private float shakeSpeed = 0.02f;
+
     private void Start()
     {
         originalPos = transform.localPosition;
@@ -24,15 +28,33 @@ public class HealthBar : MonoBehaviour
 
         if (playerHealth.currentHealth < lastHealth)
         {
-            float magnitude = 10f;
-            transform.localPosition = originalPos + new Vector3(Random.Range(-magnitude, magnitude), Random.Range(-magnitude, magnitude), 0);
-
-            Invoke(nameof(ResetPosition), 0.08f);
+            StopAllCoroutines();
+            StartCoroutine(ShakeBar());
         }
 
         lastHealth = playerHealth.currentHealth;
     }
 
+    private IEnumerator ShakeBar()
+    {
+        float timer = 0f;
+
+        while (timer < shakeDuration)
+        {
+            Vector3 offset = new Vector3(
+                Random.Range(-shakeMagnitude, shakeMagnitude),
+                Random.Range(-shakeMagnitude, shakeMagnitude),
+                0f
+            );
+
+            transform.localPosition = originalPos + offset;
+
+            timer += shakeSpeed;
+            yield return new WaitForSeconds(shakeSpeed);
+        }
+
+        transform.localPosition = originalPos;
+    }
     private void ResetPosition()
     {
         transform.localPosition = originalPos;

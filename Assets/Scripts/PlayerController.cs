@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private float horizontal;
     public float speed = 5f;
 
+    [Header("Jump Settings")]
     public float jumpingPower = 10f;
     public float fallMultiplier = 2.5f;        // Gravity Boost when Falling
     public float lowJumpMultiplier = 2f;       // Gravity Boost when Releasing
@@ -21,14 +22,18 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
     private bool jumpPressed;
 
+    [Header("Attack Settings")]
     private bool canAttack = true;
     public float attackCooldown = 0.1f;
+    public float attackPushDistance = 1f;   // Lunge Forward
+    public float attackPushSpeed = 10f;     // Lunge Speed
 
+    [Header("Dead Settings")]
     public bool isDead = false;
     public Vector2 knockbackForce = new Vector2(20f, 20f);
 
-    [Header("Damage Settings")]
-    public float invincibilityDuration = 2; 
+    [Header("Damaged Settings")]
+    public float invincibilityDuration = 1.5f; 
     [HideInInspector] public bool isInvincible = false;
 
     public static PlayerController Instance;
@@ -36,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        if(Instance != null && Instance != this)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
         }
@@ -176,10 +181,20 @@ public class PlayerController : MonoBehaviour
 
         animator.SetTrigger("isAttacking");
 
+        // Lunge Forward Attack
+        Vector3 targetPos = transform.position + (isFacingRight ? Vector3.right : Vector3.left) * attackPushDistance;
+
+        while (Vector3.Distance(transform.position, targetPos) > 0.01f)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, targetPos, attackPushSpeed * Time.deltaTime);
+            yield return null;
+        }
+
         yield return new WaitForSeconds(attackCooldown);
 
         canAttack = true;
     }
+
 
     private IEnumerator HitFreeze()
     {
