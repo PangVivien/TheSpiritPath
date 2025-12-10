@@ -1,0 +1,1378 @@
+fileFormatVersion: 2
+guid: a195741c20ac6354b803cf69c5e9bb73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1595553761328341523
+    second: Monster Kappa Idle_0
+  - first:
+      213: -3097543069155404244
+    second: Monster Kappa Idle_1
+  - first:
+      213: -34338886253886554
+    second: Monster Kappa Idle_2
+  - first:
+      213: 835041676839244166
+    second: Monster Kappa Idle_3
+  - first:
+      213: -3700418762731232930
+    second: Monster Kappa Idle_4
+  - first:
+      213: 5010080735615236033
+    second: Monster Kappa Idle_5
+  - first:
+      213: 5488843628168089914
+    second: Monster Kappa Idle_6
+  - first:
+      213: -9147472079946589881
+    second: Monster Kappa Idle_7
+  - first:
+      213: -7475640666768111734
+    second: Monster Kappa Idle_8
+  - first:
+      213: -66647378870078393
+    second: Monster Kappa Idle_9
+  - first:
+      213: 1094569962357315305
+    second: Monster Kappa Idle_10
+  - first:
+      213: -8404635026741511252
+    second: Monster Kappa Idle_11
+  - first:
+      213: 67166972724391066
+    second: Monster Kappa Idle_12
+  - first:
+      213: 4025600484919440611
+    second: Monster Kappa Idle_13
+  - first:
+      213: 8375012352817702653
+    second: Monster Kappa Idle_14
+  - first:
+      213: 1263135084775668007
+    second: Monster Kappa Idle_15
+  - first:
+      213: 7462563364060758801
+    second: Monster Kappa Idle_16
+  - first:
+      213: -7900719024859731188
+    second: Monster Kappa Idle_17
+  - first:
+      213: -8941503961781742505
+    second: Monster Kappa Idle_18
+  - first:
+      213: -1425140485367736517
+    second: Monster Kappa Idle_19
+  - first:
+      213: -6671180494946270693
+    second: Monster Kappa Idle_20
+  - first:
+      213: -9171258017621996697
+    second: Monster Kappa Idle_21
+  - first:
+      213: 8036581388886632536
+    second: Monster Kappa Idle_22
+  - first:
+      213: 2674323209966288360
+    second: Monster Kappa Idle_23
+  - first:
+      213: 822834322189258188
+    second: Monster Kappa Idle_24
+  - first:
+      213: -3582144934289627778
+    second: Monster Kappa Idle_25
+  - first:
+      213: -6831416755926383191
+    second: Monster Kappa Idle_26
+  - first:
+      213: 666308344383085298
+    second: Monster Kappa Idle_27
+  - first:
+      213: -793167298179293923
+    second: Monster Kappa Idle_28
+  - first:
+      213: 9112794628742674834
+    second: Monster Kappa Idle_29
+  - first:
+      213: -4502958184140531413
+    second: Monster Kappa Idle_30
+  - first:
+      213: -1666534359140194377
+    second: Monster Kappa Idle_31
+  - first:
+      213: -8554645443385187445
+    second: Monster Kappa Idle_32
+  - first:
+      213: -1100607332256600061
+    second: Monster Kappa Idle_33
+  - first:
+      213: 1500540971069213907
+    second: Monster Kappa Idle_34
+  - first:
+      213: -5788283874990177180
+    second: Monster Kappa Idle_35
+  - first:
+      213: 1806435089536616369
+    second: Monster Kappa Idle_36
+  - first:
+      213: -8915550771654562304
+    second: Monster Kappa Idle_37
+  - first:
+      213: -3163968687481601673
+    second: Monster Kappa Idle_38
+  - first:
+      213: -1128871182652851376
+    second: Monster Kappa Idle_39
+  - first:
+      213: -5079391726490782023
+    second: Monster Kappa Idle_40
+  - first:
+      213: -1537693774810918231
+    second: Monster Kappa Idle_41
+  - first:
+      213: 4977506271244508274
+    second: Monster Kappa Idle_42
+  - first:
+      213: 8660668937530633595
+    second: Monster Kappa Idle_43
+  - first:
+      213: 5350137315029830825
+    second: Monster Kappa Idle_44
+  - first:
+      213: -3154548555698912018
+    second: Monster Kappa Idle_45
+  - first:
+      213: -3191308370204351242
+    second: Monster Kappa Idle_46
+  - first:
+      213: 397645990691114537
+    second: Monster Kappa Idle_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster Kappa Idle_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3336
+        width: 636
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312a30c31bb842610800000000000000
+      internalID: 1595553761328341523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_1
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 3336
+        width: 636
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26d4867df05305d0800000000000000
+      internalID: -3097543069155404244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 3336
+        width: 636
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3cad207f0068ff0800000000000000
+      internalID: -34338886253886554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 3336
+        width: 636
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68156a81bf9a69b00800000000000000
+      internalID: 835041676839244166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 3336
+        width: 636
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51e63fadb875acc0800000000000000
+      internalID: -3700418762731232930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_5
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 3336
+        width: 636
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7bf5e62e1678540800000000000000
+      internalID: 5010080735615236033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_6
+      rect:
+        serializedVersion: 2
+        x: 4884
+        y: 3336
+        width: 636
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3110acd23a4c2c40800000000000000
+      internalID: 5488843628168089914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_7
+      rect:
+        serializedVersion: 2
+        x: 5684
+        y: 3336
+        width: 636
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749daf1db96ad0180800000000000000
+      internalID: -9147472079946589881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_8
+      rect:
+        serializedVersion: 2
+        x: 6484
+        y: 3336
+        width: 636
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8782d4db60314890800000000000000
+      internalID: -7475640666768111734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_9
+      rect:
+        serializedVersion: 2
+        x: 7284
+        y: 3336
+        width: 636
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744fc31ef88331ff0800000000000000
+      internalID: -66647378870078393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2536
+        width: 636
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6de1cd491b03f00800000000000000
+      internalID: 1094569962357315305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_11
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 2536
+        width: 636
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab344c09fcbc5b80800000000000000
+      internalID: -8404635026741511252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 2536
+        width: 636
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c20ed7100aee000800000000000000
+      internalID: 67166972724391066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 2536
+        width: 636
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4734fff4ecdd730800000000000000
+      internalID: 4025600484919440611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_14
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 2535
+        width: 636
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df62537bc550a3470800000000000000
+      internalID: 8375012352817702653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_15
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 2535
+        width: 636
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729f26fcaae878110800000000000000
+      internalID: 1263135084775668007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_16
+      rect:
+        serializedVersion: 2
+        x: 4884
+        y: 2535
+        width: 636
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1138fac57d9509760800000000000000
+      internalID: 7462563364060758801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_17
+      rect:
+        serializedVersion: 2
+        x: 5684
+        y: 2535
+        width: 636
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ba01d18e10b5290800000000000000
+      internalID: -7900719024859731188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_18
+      rect:
+        serializedVersion: 2
+        x: 6484
+        y: 2535
+        width: 636
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7545048558569e380800000000000000
+      internalID: -8941503961781742505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_19
+      rect:
+        serializedVersion: 2
+        x: 7284
+        y: 2535
+        width: 636
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37d0ae7742e83ce0800000000000000
+      internalID: -1425140485367736517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1735
+        width: 636
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12863e6fa43b63a0800000000000000
+      internalID: -6671180494946270693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_21
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1735
+        width: 636
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b0034ac6529b080800000000000000
+      internalID: -9171258017621996697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1735
+        width: 636
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8586a1d813ca78f60800000000000000
+      internalID: 8036581388886632536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1735
+        width: 636
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed7f905aca1d1520800000000000000
+      internalID: 2674323209966288360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_24
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 1735
+        width: 636
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd071bd47b4b6b00800000000000000
+      internalID: 822834322189258188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_25
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 1735
+        width: 636
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75a3b9492aa94ec0800000000000000
+      internalID: -3582144934289627778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_26
+      rect:
+        serializedVersion: 2
+        x: 4884
+        y: 1735
+        width: 636
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a54b56a7aee131a0800000000000000
+      internalID: -6831416755926383191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_27
+      rect:
+        serializedVersion: 2
+        x: 5684
+        y: 1735
+        width: 636
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa15d1b8e33f3900800000000000000
+      internalID: 666308344383085298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_28
+      rect:
+        serializedVersion: 2
+        x: 6484
+        y: 1735
+        width: 636
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d11907b8a1ef4f0800000000000000
+      internalID: -793167298179293923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_29
+      rect:
+        serializedVersion: 2
+        x: 7284
+        y: 1735
+        width: 636
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2997b45ee66277e70800000000000000
+      internalID: 9112794628742674834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 935
+        width: 636
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b299dd3a3674281c0800000000000000
+      internalID: -4502958184140531413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_31
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 935
+        width: 636
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7277d74d74fd8e0800000000000000
+      internalID: -1666534359140194377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 935
+        width: 636
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83ac9f2b4bc74980800000000000000
+      internalID: -8554645443385187445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 935
+        width: 636
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300b7ab667bd9b0f0800000000000000
+      internalID: -1100607332256600061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_34
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 935
+        width: 636
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc008f101ef2d410800000000000000
+      internalID: 1500540971069213907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_35
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 936
+        width: 636
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464c61cbb72ebafa0800000000000000
+      internalID: -5788283874990177180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_36
+      rect:
+        serializedVersion: 2
+        x: 4884
+        y: 936
+        width: 636
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b781ad942fb11910800000000000000
+      internalID: 1806435089536616369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_37
+      rect:
+        serializedVersion: 2
+        x: 5684
+        y: 936
+        width: 636
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ee19e4fc9954480800000000000000
+      internalID: -8915550771654562304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_38
+      rect:
+        serializedVersion: 2
+        x: 6484
+        y: 936
+        width: 636
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771433efd335714d0800000000000000
+      internalID: -3163968687481601673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_39
+      rect:
+        serializedVersion: 2
+        x: 7284
+        y: 936
+        width: 636
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b3dc0f3a17550f0800000000000000
+      internalID: -1128871182652851376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_40
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 136
+        width: 636
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b67573f2206289b0800000000000000
+      internalID: -5079391726490782023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_41
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 136
+        width: 636
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2d01ba8a309aae0800000000000000
+      internalID: -1537693774810918231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_42
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 136
+        width: 636
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cdecce497a31540800000000000000
+      internalID: 4977506271244508274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_43
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 136
+        width: 636
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7de5c23380e03870800000000000000
+      internalID: 8660668937530633595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_44
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 136
+        width: 636
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac4ae1ba818f3a40800000000000000
+      internalID: 5350137315029830825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_45
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 136
+        width: 636
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee448d65dcac834d0800000000000000
+      internalID: -3154548555698912018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_46
+      rect:
+        serializedVersion: 2
+        x: 4884
+        y: 136
+        width: 636
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f42d3112f136b3d0800000000000000
+      internalID: -3191308370204351242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Kappa Idle_47
+      rect:
+        serializedVersion: 2
+        x: 5684
+        y: 136
+        width: 636
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e8085fbe8b48500800000000000000
+      internalID: 397645990691114537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster Kappa Idle_0: 1595553761328341523
+      Monster Kappa Idle_1: -3097543069155404244
+      Monster Kappa Idle_10: 1094569962357315305
+      Monster Kappa Idle_11: -8404635026741511252
+      Monster Kappa Idle_12: 67166972724391066
+      Monster Kappa Idle_13: 4025600484919440611
+      Monster Kappa Idle_14: 8375012352817702653
+      Monster Kappa Idle_15: 1263135084775668007
+      Monster Kappa Idle_16: 7462563364060758801
+      Monster Kappa Idle_17: -7900719024859731188
+      Monster Kappa Idle_18: -8941503961781742505
+      Monster Kappa Idle_19: -1425140485367736517
+      Monster Kappa Idle_2: -34338886253886554
+      Monster Kappa Idle_20: -6671180494946270693
+      Monster Kappa Idle_21: -9171258017621996697
+      Monster Kappa Idle_22: 8036581388886632536
+      Monster Kappa Idle_23: 2674323209966288360
+      Monster Kappa Idle_24: 822834322189258188
+      Monster Kappa Idle_25: -3582144934289627778
+      Monster Kappa Idle_26: -6831416755926383191
+      Monster Kappa Idle_27: 666308344383085298
+      Monster Kappa Idle_28: -793167298179293923
+      Monster Kappa Idle_29: 9112794628742674834
+      Monster Kappa Idle_3: 835041676839244166
+      Monster Kappa Idle_30: -4502958184140531413
+      Monster Kappa Idle_31: -1666534359140194377
+      Monster Kappa Idle_32: -8554645443385187445
+      Monster Kappa Idle_33: -1100607332256600061
+      Monster Kappa Idle_34: 1500540971069213907
+      Monster Kappa Idle_35: -5788283874990177180
+      Monster Kappa Idle_36: 1806435089536616369
+      Monster Kappa Idle_37: -8915550771654562304
+      Monster Kappa Idle_38: -3163968687481601673
+      Monster Kappa Idle_39: -1128871182652851376
+      Monster Kappa Idle_4: -3700418762731232930
+      Monster Kappa Idle_40: -5079391726490782023
+      Monster Kappa Idle_41: -1537693774810918231
+      Monster Kappa Idle_42: 4977506271244508274
+      Monster Kappa Idle_43: 8660668937530633595
+      Monster Kappa Idle_44: 5350137315029830825
+      Monster Kappa Idle_45: -3154548555698912018
+      Monster Kappa Idle_46: -3191308370204351242
+      Monster Kappa Idle_47: 397645990691114537
+      Monster Kappa Idle_5: 5010080735615236033
+      Monster Kappa Idle_6: 5488843628168089914
+      Monster Kappa Idle_7: -9147472079946589881
+      Monster Kappa Idle_8: -7475640666768111734
+      Monster Kappa Idle_9: -66647378870078393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
