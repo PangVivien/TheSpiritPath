@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Jump Settings")]
     public float jumpingPower = 10f;
-    public float fallMultiplier = 2.5f;        // Gravity Boost when Falling
+    public float fallMultiplier = 3f;        // Gravity Boost when Falling
     public float lowJumpMultiplier = 2f;       // Gravity Boost when Releasing
     public float coyoteTime = 0.1f;            // Short Buffer after Leave Ground
     private float coyoteTimeCounter;
@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
     [Header("Dead Settings")]
     public bool isDead = false;
     public Vector2 knockbackForce = new Vector2(20f, 20f);
+    public bool isPaused = false;
 
     [Header("Damaged Settings")]
     public float invincibilityDuration = 1.5f; 
@@ -57,7 +58,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isDead) return;
+        if (isPaused || isDead) return;
 
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
 
@@ -182,13 +183,13 @@ public class PlayerController : MonoBehaviour
         animator.SetTrigger("isAttacking");
 
         // Lunge Forward Attack
-        Vector3 targetPos = transform.position + (isFacingRight ? Vector3.right : Vector3.left) * attackPushDistance;
+        //Vector3 targetPos = transform.position + (isFacingRight ? Vector3.right : Vector3.left) * attackPushDistance;
 
-        while (Vector3.Distance(transform.position, targetPos) > 0.01f)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, attackPushSpeed * Time.deltaTime);
-            yield return null;
-        }
+        //while (Vector3.Distance(transform.position, targetPos) > 0.01f)
+        //{
+        //    transform.position = Vector3.MoveTowards(transform.position, targetPos, attackPushSpeed * Time.deltaTime);
+        //    yield return null;
+        //}
 
         yield return new WaitForSeconds(attackCooldown);
 
@@ -278,6 +279,21 @@ public class PlayerController : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         horizontal = context.ReadValue<Vector2>().x;
+    }
+
+    public void SetPaused(bool paused)
+    {
+        isPaused = paused;
+
+        if (paused)
+        {
+            rb.linearVelocity = Vector2.zero;
+            animator.speed = 0f; 
+        }
+        else
+        {
+            animator.speed = 1f;
+        }
     }
 }
 

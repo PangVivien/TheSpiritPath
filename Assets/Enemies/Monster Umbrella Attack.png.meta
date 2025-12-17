@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: c610f24878ba6824d999ce1f30c95f9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7912562146623345132
+    second: Monster Umbrella Attack_0
+  - first:
+      213: 4528876896801010929
+    second: Monster Umbrella Attack_1
+  - first:
+      213: 1760786566567451853
+    second: Monster Umbrella Attack_2
+  - first:
+      213: 4246367886105518178
+    second: Monster Umbrella Attack_3
+  - first:
+      213: -1605221544008993429
+    second: Monster Umbrella Attack_4
+  - first:
+      213: -82309246898321368
+    second: Monster Umbrella Attack_5
+  - first:
+      213: -5610186446563475130
+    second: Monster Umbrella Attack_6
+  - first:
+      213: -4724704157582582385
+    second: Monster Umbrella Attack_7
+  - first:
+      213: 4415227190720900118
+    second: Monster Umbrella Attack_8
+  - first:
+      213: -7145102060950888606
+    second: Monster Umbrella Attack_9
+  - first:
+      213: 2880618274118956070
+    second: Monster Umbrella Attack_10
+  - first:
+      213: -1198851373289783705
+    second: Monster Umbrella Attack_11
+  - first:
+      213: -8369008215451963734
+    second: Monster Umbrella Attack_12
+  - first:
+      213: -8074223529196625676
+    second: Monster Umbrella Attack_13
+  - first:
+      213: -5408522532055945663
+    second: Monster Umbrella Attack_14
+  - first:
+      213: 1433228479432184844
+    second: Monster Umbrella Attack_15
+  - first:
+      213: 3060267857263684175
+    second: Monster Umbrella Attack_16
+  - first:
+      213: 5849814779349234703
+    second: Monster Umbrella Attack_17
+  - first:
+      213: -6308954507850656431
+    second: Monster Umbrella Attack_18
+  - first:
+      213: 4884034110773801651
+    second: Monster Umbrella Attack_19
+  - first:
+      213: 8523407924432086400
+    second: Monster Umbrella Attack_20
+  - first:
+      213: -2341698279828864832
+    second: Monster Umbrella Attack_21
+  - first:
+      213: 3552102412708877188
+    second: Monster Umbrella Attack_22
+  - first:
+      213: -4899763961133732797
+    second: Monster Umbrella Attack_23
+  - first:
+      213: -8441815051485515076
+    second: Monster Umbrella Attack_24
+  - first:
+      213: 5014311467771215353
+    second: Monster Umbrella Attack_25
+  - first:
+      213: -6713046755893244640
+    second: Monster Umbrella Attack_26
+  - first:
+      213: -1827401188432022943
+    second: Monster Umbrella Attack_27
+  - first:
+      213: 9053896973648919002
+    second: Monster Umbrella Attack_28
+  - first:
+      213: -8936492507592486276
+    second: Monster Umbrella Attack_29
+  - first:
+      213: -3093604149249917138
+    second: Monster Umbrella Attack_30
+  - first:
+      213: 8803818408225655226
+    second: Monster Umbrella Attack_31
+  - first:
+      213: 2762722598834332356
+    second: Monster Umbrella Attack_32
+  - first:
+      213: -2164150227863405621
+    second: Monster Umbrella Attack_33
+  - first:
+      213: -6989043079323600602
+    second: Monster Umbrella Attack_34
+  - first:
+      213: 2984772215888253217
+    second: Monster Umbrella Attack_35
+  - first:
+      213: 5716536475020205936
+    second: Monster Umbrella Attack_36
+  - first:
+      213: 5477340215201628994
+    second: Monster Umbrella Attack_37
+  - first:
+      213: 5026294757949222194
+    second: Monster Umbrella Attack_38
+  - first:
+      213: -4494490237363554478
+    second: Monster Umbrella Attack_39
+  - first:
+      213: 2898206817740486624
+    second: Monster Umbrella Attack_40
+  - first:
+      213: -2880375814564429891
+    second: Monster Umbrella Attack_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1686
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e205376aee03290800000000000000
+      internalID: -7912562146623345132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_1
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1684
+        width: 357
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f43c49ea8dc9de30800000000000000
+      internalID: 4528876896801010929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_2
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1683
+        width: 343
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc5881ad029f6810800000000000000
+      internalID: 1760786566567451853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_3
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 1686
+        width: 322
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26022fc18112eea30800000000000000
+      internalID: 4246367886105518178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_4
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 1694
+        width: 326
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b653a83b28b19b9e0800000000000000
+      internalID: -1605221544008993429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_5
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 1703
+        width: 323
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82845e01d249bdef0800000000000000
+      internalID: -82309246898321368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_6
+      rect:
+        serializedVersion: 2
+        x: 4946
+        y: 2094
+        width: 84
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6418fd0a62d9422b0800000000000000
+      internalID: -5610186446563475130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_7
+      rect:
+        serializedVersion: 2
+        x: 4968
+        y: 2140
+        width: 72
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d9a7ae99a7e6eb0800000000000000
+      internalID: -4724704157582582385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_8
+      rect:
+        serializedVersion: 2
+        x: 5015
+        y: 1709
+        width: 314
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ca091bcb9064d30800000000000000
+      internalID: 4415227190720900118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_9
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 2223
+        width: 22
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f5c1d288f77dc90800000000000000
+      internalID: -7145102060950888606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_10
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 2153
+        width: 48
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624fb52ee030af720800000000000000
+      internalID: 2880618274118956070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_11
+      rect:
+        serializedVersion: 2
+        x: 5813
+        y: 1705
+        width: 323
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76eb29c1703dc5fe0800000000000000
+      internalID: -1198851373289783705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_12
+      rect:
+        serializedVersion: 2
+        x: 6617
+        y: 1695
+        width: 325
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaee8a37e5f4bdb80800000000000000
+      internalID: -8369008215451963734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_13
+      rect:
+        serializedVersion: 2
+        x: 7426
+        y: 1687
+        width: 322
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f06221ba7892ff80800000000000000
+      internalID: -8074223529196625676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_14
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 2091
+        width: 37
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14eeb15a96111f4b0800000000000000
+      internalID: -5408522532055945663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_15
+      rect:
+        serializedVersion: 2
+        x: 4934
+        y: 1943
+        width: 96
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04578e55b9d3e310800000000000000
+      internalID: 1433228479432184844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_16
+      rect:
+        serializedVersion: 2
+        x: 4948
+        y: 1983
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a6fb5f661487a20800000000000000
+      internalID: 3060267857263684175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_17
+      rect:
+        serializedVersion: 2
+        x: 4966
+        y: 1889
+        width: 47
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04f0f45c87be2150800000000000000
+      internalID: 5849814779349234703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_18
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 1724
+        width: 110
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15556772d471278a0800000000000000
+      internalID: -6308954507850656431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_19
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 1738
+        width: 162
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b23093a52397c340800000000000000
+      internalID: 4884034110773801651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_20
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 1749
+        width: 195
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085268b295a394670800000000000000
+      internalID: 8523407924432086400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_21
+      rect:
+        serializedVersion: 2
+        x: 4526
+        y: 1739
+        width: 214
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c048a342dd908fd0800000000000000
+      internalID: -2341698279828864832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_22
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 1706
+        width: 214
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4831253135a9b4130800000000000000
+      internalID: 3552102412708877188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_23
+      rect:
+        serializedVersion: 2
+        x: 6161
+        y: 1705
+        width: 186
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cec5d23aa800cb0800000000000000
+      internalID: -4899763961133732797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_24
+      rect:
+        serializedVersion: 2
+        x: 7006
+        y: 1704
+        width: 133
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2f8a4ffe5a8da80800000000000000
+      internalID: -8441815051485515076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_25
+      rect:
+        serializedVersion: 2
+        x: 7806
+        y: 1704
+        width: 113
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdbba586b9669540800000000000000
+      internalID: 5014311467771215353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 883
+        width: 342
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d0562fa8776d2a0800000000000000
+      internalID: -6713046755893244640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_27
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 904
+        width: 89
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162f1651d44c3a6e0800000000000000
+      internalID: -1827401188432022943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_28
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 884
+        width: 356
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9f353f357e5ad70800000000000000
+      internalID: 9053896973648919002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_29
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 938
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72920379633bf380800000000000000
+      internalID: -8936492507592486276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_30
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 886
+        width: 357
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fb848ba6f4115d0800000000000000
+      internalID: -3093604149249917138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_31
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 886
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9c55992327d2a70800000000000000
+      internalID: 8803818408225655226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_32
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 886
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2e67ce099275620800000000000000
+      internalID: 2762722598834332356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_33
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 886
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbfe9b75d467f1e0800000000000000
+      internalID: -2164150227863405621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_34
+      rect:
+        serializedVersion: 2
+        x: 4992
+        y: 886
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629b301595ee10f90800000000000000
+      internalID: -6989043079323600602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_35
+      rect:
+        serializedVersion: 2
+        x: 5792
+        y: 886
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121997f248a0c6920800000000000000
+      internalID: 2984772215888253217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_36
+      rect:
+        serializedVersion: 2
+        x: 6592
+        y: 886
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f9423f2a7355f40800000000000000
+      internalID: 5716536475020205936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_37
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 886
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2430e01d7eb630c40800000000000000
+      internalID: 5477340215201628994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 86
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23da8ffa37cf0c540800000000000000
+      internalID: 5026294757949222194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_39
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 86
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257fb7321fc50a1c0800000000000000
+      internalID: -4494490237363554478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_40
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 86
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e77901debf783820800000000000000
+      internalID: 2898206817740486624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Umbrella Attack_41
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 86
+        width: 356
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfb2412579d608d0800000000000000
+      internalID: -2880375814564429891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster Umbrella Attack_0: -7912562146623345132
+      Monster Umbrella Attack_1: 4528876896801010929
+      Monster Umbrella Attack_10: 2880618274118956070
+      Monster Umbrella Attack_11: -1198851373289783705
+      Monster Umbrella Attack_12: -8369008215451963734
+      Monster Umbrella Attack_13: -8074223529196625676
+      Monster Umbrella Attack_14: -5408522532055945663
+      Monster Umbrella Attack_15: 1433228479432184844
+      Monster Umbrella Attack_16: 3060267857263684175
+      Monster Umbrella Attack_17: 5849814779349234703
+      Monster Umbrella Attack_18: -6308954507850656431
+      Monster Umbrella Attack_19: 4884034110773801651
+      Monster Umbrella Attack_2: 1760786566567451853
+      Monster Umbrella Attack_20: 8523407924432086400
+      Monster Umbrella Attack_21: -2341698279828864832
+      Monster Umbrella Attack_22: 3552102412708877188
+      Monster Umbrella Attack_23: -4899763961133732797
+      Monster Umbrella Attack_24: -8441815051485515076
+      Monster Umbrella Attack_25: 5014311467771215353
+      Monster Umbrella Attack_26: -6713046755893244640
+      Monster Umbrella Attack_27: -1827401188432022943
+      Monster Umbrella Attack_28: 9053896973648919002
+      Monster Umbrella Attack_29: -8936492507592486276
+      Monster Umbrella Attack_3: 4246367886105518178
+      Monster Umbrella Attack_30: -3093604149249917138
+      Monster Umbrella Attack_31: 8803818408225655226
+      Monster Umbrella Attack_32: 2762722598834332356
+      Monster Umbrella Attack_33: -2164150227863405621
+      Monster Umbrella Attack_34: -6989043079323600602
+      Monster Umbrella Attack_35: 2984772215888253217
+      Monster Umbrella Attack_36: 5716536475020205936
+      Monster Umbrella Attack_37: 5477340215201628994
+      Monster Umbrella Attack_38: 5026294757949222194
+      Monster Umbrella Attack_39: -4494490237363554478
+      Monster Umbrella Attack_4: -1605221544008993429
+      Monster Umbrella Attack_40: 2898206817740486624
+      Monster Umbrella Attack_41: -2880375814564429891
+      Monster Umbrella Attack_5: -82309246898321368
+      Monster Umbrella Attack_6: -5610186446563475130
+      Monster Umbrella Attack_7: -4724704157582582385
+      Monster Umbrella Attack_8: 4415227190720900118
+      Monster Umbrella Attack_9: -7145102060950888606
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
