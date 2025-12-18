@@ -1,14 +1,18 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField]private float startingHealth;
+    public float startingHealth = 5f;
     public float currentHealth { get; private set; }
+
+    PlayerRespawn respawn;
 
     private void Awake()
     {
         currentHealth = startingHealth;
+        respawn = GetComponent<PlayerRespawn>();
     }
 
     public void TakeDamage(float _damage, Vector3 hitSource)
@@ -25,11 +29,38 @@ public class Health : MonoBehaviour
         {
             //Player Dead
             PlayerController.Instance.Die();
+            respawn.Respawn();
         }
     }
 
     public void Heal(float amount)
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, startingHealth);
+    }
+
+    public void ResetHealth()
+    {
+        currentHealth = startingHealth;
+    }
+
+    public void ResetHealthAnimated(float duration = 1f)
+    {
+        StartCoroutine(AnimateHealthReset(duration));
+    }
+
+    private IEnumerator AnimateHealthReset(float duration)
+    {
+        float startHealth = currentHealth;
+        float targetHealth = startingHealth;
+        float timer = 0f;
+
+        while (timer < duration)
+        {
+            currentHealth = Mathf.Lerp(startHealth, targetHealth, timer / duration);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        currentHealth = targetHealth;
     }
 }

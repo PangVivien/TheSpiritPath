@@ -24,7 +24,7 @@ public class HealthBar : MonoBehaviour
     }
     private void Update()
     {
-        currentHealthBar.fillAmount = playerHealth.currentHealth / 5f;
+        currentHealthBar.fillAmount = Mathf.Lerp(currentHealthBar.fillAmount, playerHealth.currentHealth / playerHealth.startingHealth, Time.deltaTime * 10f);
 
         if (playerHealth.currentHealth < lastHealth)
         {
@@ -58,5 +58,10 @@ public class HealthBar : MonoBehaviour
     private void ResetPosition()
     {
         transform.localPosition = originalPos;
+    }
+
+    public void UpdateHealthBar()
+    {
+        currentHealthBar.fillAmount = playerHealth.currentHealth / playerHealth.startingHealth;
     }
 }

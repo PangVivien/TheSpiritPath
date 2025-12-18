@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Jump Settings")]
     public float jumpingPower = 10f;
-    public float fallMultiplier = 3f;        // Gravity Boost when Falling
+    public float fallMultiplier = 5f;        // Gravity Boost when Falling
     public float lowJumpMultiplier = 2f;       // Gravity Boost when Releasing
     public float coyoteTime = 0.1f;            // Short Buffer after Leave Ground
     private float coyoteTimeCounter;
@@ -214,6 +214,11 @@ public class PlayerController : MonoBehaviour
         }
 
         transform.localPosition = originalPos;
+    }
+
+    public void OnDeathAnimationEnd()
+    {
+        GetComponent<PlayerRespawn>().Respawn();
     }
 
     private IEnumerator Rumble(float duration)
