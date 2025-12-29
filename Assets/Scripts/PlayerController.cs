@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     public float attackCooldown = 0.1f;
     public float attackPushDistance = 1f;   // Lunge Forward
     public float attackPushSpeed = 10f;     // Lunge Speed
+    [SerializeField] private GameObject slash;
 
     [Header("Dead Settings")]
     public bool isDead = false;
@@ -182,6 +183,9 @@ public class PlayerController : MonoBehaviour
 
         animator.SetTrigger("isAttacking");
 
+        if (slash != null)
+            slash.SetActive(true);
+
         // Lunge Forward Attack
         //Vector3 targetPos = transform.position + (isFacingRight ? Vector3.right : Vector3.left) * attackPushDistance;
 
@@ -192,6 +196,11 @@ public class PlayerController : MonoBehaviour
         //}
 
         yield return new WaitForSeconds(attackCooldown);
+
+        yield return new WaitForSeconds(0.5f);
+
+        if (slash != null)
+            slash.SetActive(false);
 
         canAttack = true;
     }
