@@ -6,16 +6,20 @@ public class PlayerDamage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
-        {
-           KappaHealth enemy = collision.GetComponent<KappaHealth>();
-            if (enemy != null)
-            {
-                Vector2 hitDir =
-                    (collision.transform.position - transform.parent.position).normalized;
+        if (!collision.CompareTag("Enemy")) return;
 
-                enemy.TakeDamage(damage, hitDir);
-            }
+        Vector2 hitDir = (collision.transform.position - transform.parent.position).normalized;
+
+        KappaHealth kappa = collision.GetComponent<KappaHealth>();
+        if (kappa != null)
+        {
+            kappa.TakeDamage(damage, hitDir);
+        }
+
+        EnemyControllers enemy = collision.GetComponent<EnemyControllers>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(hitDir); 
         }
     }
 }

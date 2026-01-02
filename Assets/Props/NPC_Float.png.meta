@@ -1,0 +1,2211 @@
+fileFormatVersion: 2
+guid: 7f47c778637d8ae4ea6e256d62b9aabb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1589733288374071897
+    second: NPC_Float_0
+  - first:
+      213: 3692903268858556856
+    second: NPC_Float_1
+  - first:
+      213: -8830886412730723474
+    second: NPC_Float_2
+  - first:
+      213: 4265043565960784370
+    second: NPC_Float_3
+  - first:
+      213: 5474413241726852351
+    second: NPC_Float_4
+  - first:
+      213: 3446367584836551534
+    second: NPC_Float_5
+  - first:
+      213: 6040957822037962656
+    second: NPC_Float_6
+  - first:
+      213: 3634066079234519587
+    second: NPC_Float_7
+  - first:
+      213: -1277230178550764192
+    second: NPC_Float_8
+  - first:
+      213: -8027016632241330777
+    second: NPC_Float_9
+  - first:
+      213: 3012712672016129785
+    second: NPC_Float_10
+  - first:
+      213: 7694264835085682503
+    second: NPC_Float_11
+  - first:
+      213: 5806550105515542834
+    second: NPC_Float_12
+  - first:
+      213: 38846894002931091
+    second: NPC_Float_13
+  - first:
+      213: -8940191236696724931
+    second: NPC_Float_14
+  - first:
+      213: 1820452203002482290
+    second: NPC_Float_15
+  - first:
+      213: -1385023351707408648
+    second: NPC_Float_16
+  - first:
+      213: 3472061533944536282
+    second: NPC_Float_17
+  - first:
+      213: 455273666005735081
+    second: NPC_Float_18
+  - first:
+      213: -4272847152930049642
+    second: NPC_Float_19
+  - first:
+      213: 700827452385793110
+    second: NPC_Float_20
+  - first:
+      213: -7241796366572288377
+    second: NPC_Float_21
+  - first:
+      213: 535806139813702116
+    second: NPC_Float_22
+  - first:
+      213: 1976420168473347158
+    second: NPC_Float_23
+  - first:
+      213: 8610918611513963596
+    second: NPC_Float_24
+  - first:
+      213: -5036753580298361514
+    second: NPC_Float_25
+  - first:
+      213: -5233864789188608358
+    second: NPC_Float_26
+  - first:
+      213: 1292649104162818586
+    second: NPC_Float_27
+  - first:
+      213: -7954551527315878926
+    second: NPC_Float_28
+  - first:
+      213: 1929390929676212399
+    second: NPC_Float_29
+  - first:
+      213: 8196579678892269357
+    second: NPC_Float_30
+  - first:
+      213: 4889854324488082241
+    second: NPC_Float_31
+  - first:
+      213: 747377355152468580
+    second: NPC_Float_32
+  - first:
+      213: 4706024352702080905
+    second: NPC_Float_33
+  - first:
+      213: -2683378099813080153
+    second: NPC_Float_34
+  - first:
+      213: 1674788086541069938
+    second: NPC_Float_35
+  - first:
+      213: -2416966212194751378
+    second: NPC_Float_36
+  - first:
+      213: -3297278321543230240
+    second: NPC_Float_37
+  - first:
+      213: -8623509361694874596
+    second: NPC_Float_38
+  - first:
+      213: -5134132436834231820
+    second: NPC_Float_39
+  - first:
+      213: -8498180170342121776
+    second: NPC_Float_40
+  - first:
+      213: 8272707012176312734
+    second: NPC_Float_41
+  - first:
+      213: 7303290042371700494
+    second: NPC_Float_42
+  - first:
+      213: 5427149396736041634
+    second: NPC_Float_43
+  - first:
+      213: -8352235747781502762
+    second: NPC_Float_44
+  - first:
+      213: -7277556546076304623
+    second: NPC_Float_45
+  - first:
+      213: -2842172048937377286
+    second: NPC_Float_46
+  - first:
+      213: 1717823765297229920
+    second: NPC_Float_47
+  - first:
+      213: 1486103027222385519
+    second: NPC_Float_48
+  - first:
+      213: -6383702290338116108
+    second: NPC_Float_49
+  - first:
+      213: 5885863763273018369
+    second: NPC_Float_50
+  - first:
+      213: 590959528904923262
+    second: NPC_Float_51
+  - first:
+      213: -3559763150367228853
+    second: NPC_Float_52
+  - first:
+      213: -4893368330999619408
+    second: NPC_Float_53
+  - first:
+      213: -1718315590068687340
+    second: NPC_Float_54
+  - first:
+      213: 6538699359524038087
+    second: NPC_Float_55
+  - first:
+      213: -7356965496369610629
+    second: NPC_Float_56
+  - first:
+      213: 2431068328648065882
+    second: NPC_Float_57
+  - first:
+      213: -2959989702123323207
+    second: NPC_Float_58
+  - first:
+      213: 7468346374576749257
+    second: NPC_Float_59
+  - first:
+      213: -5085551211463194630
+    second: NPC_Float_60
+  - first:
+      213: 6724078202173552216
+    second: NPC_Float_61
+  - first:
+      213: 8679305410964163434
+    second: NPC_Float_62
+  - first:
+      213: -6452308255090556407
+    second: NPC_Float_63
+  - first:
+      213: -5477599111760752192
+    second: NPC_Float_64
+  - first:
+      213: 9222656716474605188
+    second: NPC_Float_65
+  - first:
+      213: 2156162674882369959
+    second: NPC_Float_66
+  - first:
+      213: 7055449917396868550
+    second: NPC_Float_67
+  - first:
+      213: -7190001987659555145
+    second: NPC_Float_68
+  - first:
+      213: 1222223911605996896
+    second: NPC_Float_69
+  - first:
+      213: -5661166990691963709
+    second: NPC_Float_70
+  - first:
+      213: 3658012712397705565
+    second: NPC_Float_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_Float_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9527625c00edf0610800000000000000
+      internalID: 1589733288374071897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1713a05f3df3330800000000000000
+      internalID: 3692903268858556856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e639c5d7893627580800000000000000
+      internalID: -8830886412730723474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f968aca68a703b30800000000000000
+      internalID: 4265043565960784370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcd2d2b6d509fb40800000000000000
+      internalID: 5474413241726852351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e638a9b0f05f3df20800000000000000
+      internalID: 3446367584836551534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_6
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afa0bdf12bc5d350800000000000000
+      internalID: 6040957822037962656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_7
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322f11f48dbce6230800000000000000
+      internalID: 3634066079234519587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_8
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06da21f6bed564ee0800000000000000
+      internalID: -1277230178550764192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_9
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 5600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a56a15e6ee4a9090800000000000000
+      internalID: -8027016632241330777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fed6d1963e4fc920800000000000000
+      internalID: 3012712672016129785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747cf0ff91587ca60800000000000000
+      internalID: 7694264835085682503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239c2c97e82059050800000000000000
+      internalID: 5806550105515542834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_13
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3950ca55b030a8000800000000000000
+      internalID: 38846894002931091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3aa1a8ff6f0ee380800000000000000
+      internalID: -8940191236696724931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_15
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e4a8a22ab834910800000000000000
+      internalID: 1820452203002482290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_16
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6ebdb899867cce0800000000000000
+      internalID: -1385023351707408648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_17
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcdf01c19d3f2030800000000000000
+      internalID: 3472061533944536282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_18
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a69cd1bcf4715600800000000000000
+      internalID: 455273666005735081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_19
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691b016272cc3b4c0800000000000000
+      internalID: -4272847152930049642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6541c44dad6d9b900800000000000000
+      internalID: 700827452385793110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_21
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7868eb2c298ff7b90800000000000000
+      internalID: -7241796366572288377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9a11868d09f6700800000000000000
+      internalID: 535806139813702116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_23
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65485c4fba7ad6b10800000000000000
+      internalID: 1976420168473347158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_24
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44f615cad0208770800000000000000
+      internalID: 8610918611513963596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_25
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655a329fd4bd91ab0800000000000000
+      internalID: -5036753580298361514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_26
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9efcf554b39d57b0800000000000000
+      internalID: -5233864789188608358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_27
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a0ad0f28960f110800000000000000
+      internalID: 1292649104162818586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_28
+      rect:
+        serializedVersion: 2
+        x: 4883
+        y: 4135
+        width: 449
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbcbcae781cb9190800000000000000
+      internalID: -7954551527315878926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_29
+      rect:
+        serializedVersion: 2
+        x: 5485
+        y: 4134
+        width: 443
+        height: 534
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8163404d296ca10800000000000000
+      internalID: 1929390929676212399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_30
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3332
+        width: 436
+        height: 538
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f1f856ac910c170800000000000000
+      internalID: 8196579678892269357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_31
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 3330
+        width: 434
+        height: 542
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143158eb9904cd340800000000000000
+      internalID: 4889854324488082241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_32
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 3329
+        width: 431
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46aa807aeb73f5a00800000000000000
+      internalID: 747377355152468580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_33
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 3327
+        width: 428
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987252717382f4140800000000000000
+      internalID: 4706024352702080905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_34
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3325
+        width: 425
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3249ad5d9b2cad0800000000000000
+      internalID: -2683378099813080153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_35
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 3323
+        width: 423
+        height: 554
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e265c24ea0e3710800000000000000
+      internalID: 1674788086541069938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_36
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 3321
+        width: 431
+        height: 556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ca2002906357ed0800000000000000
+      internalID: -2416966212194751378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_37
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecc1d616d6bd32d0800000000000000
+      internalID: -3297278321543230240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_38
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14ebe2cce3235880800000000000000
+      internalID: -8623509361694874596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_39
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f95fa020c5efb8b0800000000000000
+      internalID: -5134132436834231820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de3d7d0926601a80800000000000000
+      internalID: -8498180170342121776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99f6a7623f8ec270800000000000000
+      internalID: 8272707012176312734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_42
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07763b599f7a5560800000000000000
+      internalID: 7303290042371700494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_43
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a26d6f3f9b115b40800000000000000
+      internalID: 5427149396736041634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_44
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d81a25e6d5e61c80800000000000000
+      internalID: -8352235747781502762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_45
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b9d4621ece00b90800000000000000
+      internalID: -7277556546076304623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_46
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af12b8874939e88d0800000000000000
+      internalID: -2842172048937377286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_47
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060f345fc9fe6d710800000000000000
+      internalID: 1717823765297229920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_48
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63193d54d2bf9410800000000000000
+      internalID: 1486103027222385519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_49
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2400
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd8c88d6988867a0800000000000000
+      internalID: -6383702290338116108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c6b3678e9cea150800000000000000
+      internalID: 5885863763273018369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_51
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78920d7f82833800800000000000000
+      internalID: 590959528904923262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_52
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cf5d1764e299ec0800000000000000
+      internalID: -3559763150367228853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_53
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b02f9bdd63471cb0800000000000000
+      internalID: -4893368330999619408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_54
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ea0f923115728e0800000000000000
+      internalID: -1718315590068687340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_55
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c521898c602eba50800000000000000
+      internalID: 6538699359524038087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_56
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7085142cdec6e990800000000000000
+      internalID: -7356965496369610629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_57
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5345c9b3c3ecb120800000000000000
+      internalID: 2431068328648065882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_58
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b000227c010ce6d0800000000000000
+      internalID: -2959989702123323207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_59
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1600
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca393c6575e4a760800000000000000
+      internalID: 7468346374576749257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7cda91e1e7c69b0800000000000000
+      internalID: -5085551211463194630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856708acf79b05d50800000000000000
+      internalID: 6724078202173552216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_62
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b05ad4946137870800000000000000
+      internalID: 8679305410964163434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_63
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902c10ae3dbc476a0800000000000000
+      internalID: -6452308255090556407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_64
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1518121a8abf3b0800000000000000
+      internalID: -5477599111760752192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_65
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ed6de7b657dff70800000000000000
+      internalID: 9222656716474605188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_66
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9d15a678a3ced10800000000000000
+      internalID: 2156162674882369959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_67
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cddff8815ef9e160800000000000000
+      internalID: 7055449917396868550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_68
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be1337594bf73c90800000000000000
+      internalID: -7190001987659555145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_69
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 800
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d83470c2636f010800000000000000
+      internalID: 1222223911605996896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc63a9bd9e7f61b0800000000000000
+      internalID: -5661166990691963709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_71
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5114525e2fd3c230800000000000000
+      internalID: 3658012712397705565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_72
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1965b06dd82dda45a68dda9e8e1dabf
+      internalID: -1687870346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_73
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4000
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a384a5745c3690c469fede8d72c8e6af
+      internalID: 299235998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10ef28cdd4952645bf9b733ac276ff2
+      internalID: 814855335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_75
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c37a6d488ff8a4db38df7a715d1247
+      internalID: -1276331448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_76
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e4b41c6482ff947acb23f1d6293c9b
+      internalID: 1420548511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_77
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0507ea0b043de97419dbfa1905e53f81
+      internalID: 1555737693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_78
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749aad90f5bc0e4e81b1b703a014cd5
+      internalID: -1693177872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_79
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df9a72316ce61245879980039622a30
+      internalID: 1484092039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Float_80
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 600
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4737ee39c76bd4aae66478acc49274
+      internalID: -547783640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 556c811ed2dfaf9498cf3db54c83ef2c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":8.0},"gridSpriteSize":{"x":600.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":1,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      NPC_Float_0: 1589733288374071897
+      NPC_Float_1: 3692903268858556856
+      NPC_Float_10: 3012712672016129785
+      NPC_Float_11: 7694264835085682503
+      NPC_Float_12: 5806550105515542834
+      NPC_Float_13: 38846894002931091
+      NPC_Float_14: -8940191236696724931
+      NPC_Float_15: 1820452203002482290
+      NPC_Float_16: -1385023351707408648
+      NPC_Float_17: 3472061533944536282
+      NPC_Float_18: 455273666005735081
+      NPC_Float_19: -4272847152930049642
+      NPC_Float_2: -8830886412730723474
+      NPC_Float_20: 700827452385793110
+      NPC_Float_21: -7241796366572288377
+      NPC_Float_22: 535806139813702116
+      NPC_Float_23: 1976420168473347158
+      NPC_Float_24: 8610918611513963596
+      NPC_Float_25: -5036753580298361514
+      NPC_Float_26: -5233864789188608358
+      NPC_Float_27: 1292649104162818586
+      NPC_Float_28: -7954551527315878926
+      NPC_Float_29: 1929390929676212399
+      NPC_Float_3: 4265043565960784370
+      NPC_Float_30: 8196579678892269357
+      NPC_Float_31: 4889854324488082241
+      NPC_Float_32: 747377355152468580
+      NPC_Float_33: 4706024352702080905
+      NPC_Float_34: -2683378099813080153
+      NPC_Float_35: 1674788086541069938
+      NPC_Float_36: -2416966212194751378
+      NPC_Float_37: -3297278321543230240
+      NPC_Float_38: -8623509361694874596
+      NPC_Float_39: -5134132436834231820
+      NPC_Float_4: 5474413241726852351
+      NPC_Float_40: -8498180170342121776
+      NPC_Float_41: 8272707012176312734
+      NPC_Float_42: 7303290042371700494
+      NPC_Float_43: 5427149396736041634
+      NPC_Float_44: -8352235747781502762
+      NPC_Float_45: -7277556546076304623
+      NPC_Float_46: -2842172048937377286
+      NPC_Float_47: 1717823765297229920
+      NPC_Float_48: 1486103027222385519
+      NPC_Float_49: -6383702290338116108
+      NPC_Float_5: 3446367584836551534
+      NPC_Float_50: 5885863763273018369
+      NPC_Float_51: 590959528904923262
+      NPC_Float_52: -3559763150367228853
+      NPC_Float_53: -4893368330999619408
+      NPC_Float_54: -1718315590068687340
+      NPC_Float_55: 6538699359524038087
+      NPC_Float_56: -7356965496369610629
+      NPC_Float_57: 2431068328648065882
+      NPC_Float_58: -2959989702123323207
+      NPC_Float_59: 7468346374576749257
+      NPC_Float_6: 6040957822037962656
+      NPC_Float_60: -5085551211463194630
+      NPC_Float_61: 6724078202173552216
+      NPC_Float_62: 8679305410964163434
+      NPC_Float_63: -6452308255090556407
+      NPC_Float_64: -5477599111760752192
+      NPC_Float_65: 9222656716474605188
+      NPC_Float_66: 2156162674882369959
+      NPC_Float_67: 7055449917396868550
+      NPC_Float_68: -7190001987659555145
+      NPC_Float_69: 1222223911605996896
+      NPC_Float_7: 3634066079234519587
+      NPC_Float_70: -5661166990691963709
+      NPC_Float_71: 3658012712397705565
+      NPC_Float_72: -1687870346
+      NPC_Float_73: 299235998
+      NPC_Float_74: 814855335
+      NPC_Float_75: -1276331448
+      NPC_Float_76: 1420548511
+      NPC_Float_77: 1555737693
+      NPC_Float_78: -1693177872
+      NPC_Float_79: 1484092039
+      NPC_Float_8: -1277230178550764192
+      NPC_Float_80: -547783640
+      NPC_Float_9: -8027016632241330777
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

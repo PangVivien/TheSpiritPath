@@ -5,12 +5,17 @@ public class KappaHealth : MonoBehaviour
     public float maxHealth = 10f;
     private float currentHealth;
 
-    public Vector2 knockbackForce = new Vector2(5f, 5f);
+
     private Rigidbody2D rb;
     private Animator animator;
     private Collider2D enemyCollider;
 
     private bool isDead = false;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip damagedSFX;
+    [SerializeField] private AudioClip dieSFX;
 
     private void Awake()
     {
@@ -26,7 +31,8 @@ public class KappaHealth : MonoBehaviour
 
         currentHealth -= damage;
 
-        rb.linearVelocity = new Vector2(hitDirection.x * knockbackForce.x, knockbackForce.y);
+        if (audioSource != null && damagedSFX != null)
+            audioSource.PlayOneShot(damagedSFX);
 
         if (currentHealth <= 0)
         {
@@ -37,6 +43,12 @@ public class KappaHealth : MonoBehaviour
     private void Die()
     {
         isDead = true;
+
+        if (audioSource != null)
+            audioSource.Stop();
+
+         if (audioSource != null && dieSFX != null)
+            audioSource.PlayOneShot(dieSFX);
 
         rb.linearVelocity = Vector2.zero;
         rb.simulated = false;

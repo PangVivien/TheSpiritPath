@@ -257,12 +257,12 @@ TextureImporter:
       name: Monster Umbrella Die_0
       rect:
         serializedVersion: 2
-        x: 192
-        y: 2486
-        width: 356
-        height: 634
+        x: 0
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: Monster Umbrella Die_1
       rect:
         serializedVersion: 2
-        x: 982
-        y: 3040
-        width: 10
-        height: 11
+        x: 800
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,12 +301,12 @@ TextureImporter:
       name: Monster Umbrella Die_2
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 2487
-        width: 292
-        height: 633
+        x: 1600
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -323,12 +323,12 @@ TextureImporter:
       name: Monster Umbrella Die_3
       rect:
         serializedVersion: 2
-        x: 1874
-        y: 2493
-        width: 290
-        height: 627
+        x: 2400
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -345,12 +345,12 @@ TextureImporter:
       name: Monster Umbrella Die_4
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 2503
-        width: 401
-        height: 616
+        x: 3200
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -367,12 +367,12 @@ TextureImporter:
       name: Monster Umbrella Die_5
       rect:
         serializedVersion: 2
-        x: 3475
-        y: 2494
-        width: 289
-        height: 626
+        x: 4000
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -389,12 +389,12 @@ TextureImporter:
       name: Monster Umbrella Die_6
       rect:
         serializedVersion: 2
-        x: 4182
-        y: 3040
-        width: 9
-        height: 11
+        x: 4800
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -411,12 +411,12 @@ TextureImporter:
       name: Monster Umbrella Die_7
       rect:
         serializedVersion: 2
-        x: 4264
-        y: 2487
-        width: 292
-        height: 633
+        x: 5600
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -433,12 +433,12 @@ TextureImporter:
       name: Monster Umbrella Die_8
       rect:
         serializedVersion: 2
-        x: 4991
-        y: 2486
-        width: 358
-        height: 634
+        x: 6400
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -455,12 +455,12 @@ TextureImporter:
       name: Monster Umbrella Die_9
       rect:
         serializedVersion: 2
-        x: 5792
-        y: 2486
-        width: 356
-        height: 634
+        x: 7200
+        y: 2400
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -477,12 +477,12 @@ TextureImporter:
       name: Monster Umbrella Die_10
       rect:
         serializedVersion: 2
-        x: 6592
-        y: 2486
-        width: 356
-        height: 634
+        x: 0
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -499,12 +499,12 @@ TextureImporter:
       name: Monster Umbrella Die_11
       rect:
         serializedVersion: 2
-        x: 7392
-        y: 2486
-        width: 356
-        height: 634
+        x: 800
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -521,12 +521,12 @@ TextureImporter:
       name: Monster Umbrella Die_12
       rect:
         serializedVersion: 2
-        x: 1771
-        y: 3024
-        width: 9
-        height: 11
+        x: 1600
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -543,12 +543,12 @@ TextureImporter:
       name: Monster Umbrella Die_13
       rect:
         serializedVersion: 2
-        x: 3370
-        y: 3023
-        width: 9
-        height: 12
+        x: 2400
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -565,12 +565,12 @@ TextureImporter:
       name: Monster Umbrella Die_14
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1686
-        width: 356
-        height: 634
+        x: 3200
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -587,12 +587,12 @@ TextureImporter:
       name: Monster Umbrella Die_15
       rect:
         serializedVersion: 2
-        x: 992
-        y: 1686
-        width: 356
-        height: 634
+        x: 4000
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -609,12 +609,12 @@ TextureImporter:
       name: Monster Umbrella Die_16
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 1686
-        width: 356
-        height: 634
+        x: 4800
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -631,12 +631,12 @@ TextureImporter:
       name: Monster Umbrella Die_17
       rect:
         serializedVersion: 2
-        x: 2592
-        y: 1696
-        width: 356
-        height: 624
+        x: 5600
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -653,12 +653,12 @@ TextureImporter:
       name: Monster Umbrella Die_18
       rect:
         serializedVersion: 2
-        x: 3392
-        y: 1732
-        width: 356
-        height: 588
+        x: 6400
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -675,12 +675,12 @@ TextureImporter:
       name: Monster Umbrella Die_19
       rect:
         serializedVersion: 2
-        x: 4192
-        y: 1784
-        width: 356
-        height: 536
+        x: 7200
+        y: 1600
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -697,12 +697,12 @@ TextureImporter:
       name: Monster Umbrella Die_20
       rect:
         serializedVersion: 2
-        x: 4992
-        y: 1840
-        width: 356
-        height: 480
+        x: 0
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -719,12 +719,12 @@ TextureImporter:
       name: Monster Umbrella Die_21
       rect:
         serializedVersion: 2
-        x: 5792
-        y: 1886
-        width: 356
-        height: 434
+        x: 800
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -741,12 +741,12 @@ TextureImporter:
       name: Monster Umbrella Die_22
       rect:
         serializedVersion: 2
-        x: 6592
-        y: 1911
-        width: 356
-        height: 409
+        x: 1600
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -763,12 +763,12 @@ TextureImporter:
       name: Monster Umbrella Die_23
       rect:
         serializedVersion: 2
-        x: 7397
-        y: 1897
-        width: 346
-        height: 417
+        x: 2400
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -785,12 +785,12 @@ TextureImporter:
       name: Monster Umbrella Die_24
       rect:
         serializedVersion: 2
-        x: 216
-        y: 1068
-        width: 304
-        height: 424
+        x: 3200
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -807,12 +807,12 @@ TextureImporter:
       name: Monster Umbrella Die_25
       rect:
         serializedVersion: 2
-        x: 995
-        y: 1029
-        width: 313
-        height: 429
+        x: 4000
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -829,12 +829,12 @@ TextureImporter:
       name: Monster Umbrella Die_26
       rect:
         serializedVersion: 2
-        x: 1882
-        y: 1434
-        width: 22
-        height: 12
+        x: 4800
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -851,12 +851,12 @@ TextureImporter:
       name: Monster Umbrella Die_27
       rect:
         serializedVersion: 2
-        x: 2718
-        y: 1418
-        width: 17
-        height: 11
+        x: 5600
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -873,12 +873,12 @@ TextureImporter:
       name: Monster Umbrella Die_28
       rect:
         serializedVersion: 2
-        x: 1780
-        y: 988
-        width: 353
-        height: 428
+        x: 6400
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -895,12 +895,12 @@ TextureImporter:
       name: Monster Umbrella Die_29
       rect:
         serializedVersion: 2
-        x: 3374
-        y: 954
-        width: 380
-        height: 463
+        x: 7200
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -917,12 +917,12 @@ TextureImporter:
       name: Monster Umbrella Die_30
       rect:
         serializedVersion: 2
-        x: 4349
-        y: 1399
-        width: 19
-        height: 12
+        x: 0
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -939,12 +939,12 @@ TextureImporter:
       name: Monster Umbrella Die_31
       rect:
         serializedVersion: 2
-        x: 2575
-        y: 961
-        width: 374
-        height: 414
+        x: 800
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -961,12 +961,12 @@ TextureImporter:
       name: Monster Umbrella Die_32
       rect:
         serializedVersion: 2
-        x: 5186
-        y: 1368
-        width: 30
-        height: 21
+        x: 1600
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -983,12 +983,12 @@ TextureImporter:
       name: Monster Umbrella Die_33
       rect:
         serializedVersion: 2
-        x: 4174
-        y: 939
-        width: 391
-        height: 401
+        x: 2400
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1005,12 +1005,12 @@ TextureImporter:
       name: Monster Umbrella Die_34
       rect:
         serializedVersion: 2
-        x: 6042
-        y: 1321
-        width: 33
-        height: 28
+        x: 3200
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1027,12 +1027,12 @@ TextureImporter:
       name: Monster Umbrella Die_35
       rect:
         serializedVersion: 2
-        x: 4979
-        y: 914
-        width: 407
-        height: 386
+        x: 4000
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1045,275 +1045,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_36
-      rect:
-        serializedVersion: 2
-        x: 6901
-        y: 1269
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 205dcb157f8604840800000000000000
-      internalID: 5206276580677833986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_37
-      rect:
-        serializedVersion: 2
-        x: 5791
-        y: 893
-        width: 415
-        height: 345
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9267ff63975ee2290800000000000000
-      internalID: -7913135186466867671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_38
-      rect:
-        serializedVersion: 2
-        x: 7746
-        y: 1227
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a249b369e0f500ee0800000000000000
-      internalID: -1296932176428035030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_39
-      rect:
-        serializedVersion: 2
-        x: 6607
-        y: 880
-        width: 414
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc7a459ad58147b80800000000000000
-      internalID: -8398060614587209781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_40
-      rect:
-        serializedVersion: 2
-        x: 7417
-        y: 874
-        width: 410
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a59ae7392697f0a20800000000000000
-      internalID: 3030774538531940698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_41
-      rect:
-        serializedVersion: 2
-        x: 566
-        y: 413
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e5e97df11faa6d50800000000000000
-      internalID: 6731385084860556774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_42
-      rect:
-        serializedVersion: 2
-        x: 1019
-        y: 72
-        width: 409
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6c01661f460936a0800000000000000
-      internalID: -6469132452993364886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_43
-      rect:
-        serializedVersion: 2
-        x: 1819
-        y: 72
-        width: 409
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3dc98d24c797b3a0800000000000000
-      internalID: -6649679455955858113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_44
-      rect:
-        serializedVersion: 2
-        x: 2619
-        y: 72
-        width: 409
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2512221ca693a180800000000000000
-      internalID: -9105268355830246100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_45
-      rect:
-        serializedVersion: 2
-        x: 3419
-        y: 72
-        width: 409
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2cf2535d8e4f527b0800000000000000
-      internalID: -5249520509783822398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_46
-      rect:
-        serializedVersion: 2
-        x: 4220
-        y: 73
-        width: 408
-        height: 345
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0a47a1536cf07100800000000000000
-      internalID: 103860294931401230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Umbrella Die_47
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 72
-        width: 409
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48842ee45725f5d10800000000000000
-      internalID: 2116501013675526276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2cc83f3bfcd750443acdc2d5534ea030
     internalID: 0
     vertices: []
     indices: 
@@ -1321,7 +1057,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":4.0},"gridSpriteSize":{"x":800.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Monster Umbrella Die_0: 7021533199713907280
       Monster Umbrella Die_1: -4143497962426067583
@@ -1353,19 +1091,7 @@ TextureImporter:
       Monster Umbrella Die_33: -2957254007300121355
       Monster Umbrella Die_34: 5331499004457547180
       Monster Umbrella Die_35: -6101091648612129635
-      Monster Umbrella Die_36: 5206276580677833986
-      Monster Umbrella Die_37: -7913135186466867671
-      Monster Umbrella Die_38: -1296932176428035030
-      Monster Umbrella Die_39: -8398060614587209781
       Monster Umbrella Die_4: 8275243283092445909
-      Monster Umbrella Die_40: 3030774538531940698
-      Monster Umbrella Die_41: 6731385084860556774
-      Monster Umbrella Die_42: -6469132452993364886
-      Monster Umbrella Die_43: -6649679455955858113
-      Monster Umbrella Die_44: -9105268355830246100
-      Monster Umbrella Die_45: -5249520509783822398
-      Monster Umbrella Die_46: 103860294931401230
-      Monster Umbrella Die_47: 2116501013675526276
       Monster Umbrella Die_5: -3626704942833542376
       Monster Umbrella Die_6: 879674241485536465
       Monster Umbrella Die_7: -2394895037239959660

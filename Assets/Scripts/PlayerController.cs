@@ -38,6 +38,16 @@ public class PlayerController : MonoBehaviour
     public float invincibilityDuration = 1.5f; 
     [HideInInspector] public bool isInvincible = false;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip walkClip;
+    //[SerializeField] private float walkInterval = 0.4f;
+    [SerializeField] private AudioSource landSFXSource;
+    [SerializeField] private AudioSource slashSFXSource;
+    private bool wasGrounded;
+
+    private float walkTimer;
+
     public static PlayerController Instance;
     // private PlayerHeal playerHeal; 
 
@@ -116,6 +126,48 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
         else if (rb.linearVelocity.y > 0 && !jumpPressed)
             rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+
+        HandleWalkSFX();
+
+        HandleLandSFX();
+    }
+
+    private void HandleWalkSFX()
+    {
+        bool isWalking =
+        Mathf.Abs(horizontal) > 0.1f &&
+        IsGrounded() &&
+        !isPaused &&
+        !isDead;
+
+        if (isWalking)
+        {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.clip = walkClip;
+                audioSource.loop = true;
+                audioSource.Play();
+            }
+        }
+        else
+        {
+            if (audioSource.isPlaying && audioSource.clip == walkClip)
+            {
+                audioSource.Stop();
+            }
+        }
+    }
+    private void HandleLandSFX()
+    {
+        bool groundedNow = IsGrounded();
+
+        if (!wasGrounded && groundedNow && rb.linearVelocity.y <= 0.1f)
+        {
+            if (landSFXSource != null)
+                landSFXSource.Play();
+        }
+
+        wasGrounded = groundedNow;
     }
 
     public void Jump(InputAction.CallbackContext context)
@@ -169,7 +221,8 @@ public class PlayerController : MonoBehaviour
 
     public void Attack(InputAction.CallbackContext context)
     {
-
+        if (context.performed)
+            Debug.Log("ATTACK INPUT");
 
         if (context.performed && canAttack)
         {
@@ -182,6 +235,9 @@ public class PlayerController : MonoBehaviour
         canAttack = false;
 
         animator.SetTrigger("isAttacking");
+
+        if (slashSFXSource != null)
+            slashSFXSource.Play();
 
         if (slash != null)
             slash.SetActive(true);
@@ -281,6 +337,7 @@ public class PlayerController : MonoBehaviour
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
+
 
     private void Flip()
     {

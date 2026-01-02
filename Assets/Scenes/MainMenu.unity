@@ -13245,8 +13245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f20a93d72d07c48b3007cf5536f6a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundManagerBGM
-  menuBGM: {fileID: 8300000, guid: 5ff7d48ccf9cdfe4bae95a81d2a7e7aa, type: 3}
-  gameBGM: {fileID: 8300000, guid: 05d5f0a485b582748a6279a82de13ee7, type: 3}
+  menuBGM: {fileID: 8300000, guid: 0e3901b1a7f43564799826acd762da7f, type: 3}
+  gameBGM: {fileID: 8300000, guid: f2a64f033e7a65f478567dca1266c454, type: 3}
   menuVolume: 1
   gameVolume: 0.5
 --- !u!1 &1975714115
