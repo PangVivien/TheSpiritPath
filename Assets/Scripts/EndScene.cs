@@ -8,6 +8,10 @@ public class EndScene : MonoBehaviour
     [SerializeField] private GameObject FoxNPC;
     [SerializeField] private GameObject Ryokan;
 
+    [SerializeField] private GameObject Kappa;
+    [SerializeField] private GameObject Lantern;
+    [SerializeField] private GameObject Umbrella;
+
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip doorSFX;
 
@@ -17,9 +21,15 @@ public class EndScene : MonoBehaviour
         FoxNPC.SetActive(true);
         Ryokan.SetActive(false);
 
+        Kappa.SetActive(true);
+        Lantern.SetActive(true);
+        Umbrella.SetActive(true);
+
         if (audioSource != null && doorSFX != null)
         {
             audioSource.PlayOneShot(doorSFX);
         }
+
+
     }
 }

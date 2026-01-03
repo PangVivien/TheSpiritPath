@@ -19,6 +19,7 @@ public class EnemyControllers : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
+    private bool isFacingRight = true;
     private bool isFollowing = false;
     private bool isHurt = false;
 
@@ -56,6 +57,9 @@ public class EnemyControllers : MonoBehaviour
 
         isFollowing = distanceToPlayer <= detectionRange;
 
+        if (isFollowing)
+            FacePlayer();
+
         animator.SetFloat("speed", isFollowing ? moveSpeed : 0f);
     }
 
@@ -82,12 +86,27 @@ public class EnemyControllers : MonoBehaviour
 
     private void MoveTowardsPlayer()
     {
-        Vector2 direction = (player.position - transform.position).normalized;
-        rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y);
+        float dir = Mathf.Sign(player.position.x - transform.position.x);
+        rb.linearVelocity = new Vector2(dir * moveSpeed, rb.linearVelocity.y);
+    }
 
-        // Face Player 
+    private void FacePlayer()
+    {
+        if (player == null) return;
+
+        float horizontal = player.position.x - transform.position.x;
+
+        if (!isFacingRight && horizontal > 0f)
+            Flip();
+        else if (isFacingRight && horizontal < 0f)
+            Flip();
+    }
+
+    private void Flip()
+    {
+        isFacingRight = !isFacingRight;
         Vector3 scale = transform.localScale;
-        scale.x = Mathf.Abs(scale.x) * (direction.x >= 0 ? 1f : -1f);
+        scale.x *= -1f;
         transform.localScale = scale;
     }
 

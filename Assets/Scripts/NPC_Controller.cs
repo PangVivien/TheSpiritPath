@@ -56,7 +56,7 @@ public class NPC_Controller : MonoBehaviour
         }
         else
         {
-            //currentLine++;
+            // currentLine++;
             ShowNextLine(); 
         }
     }
@@ -73,8 +73,8 @@ public class NPC_Controller : MonoBehaviour
         }
         else
         {
-            typeWriter.StartTyping(dialogueLines[currentLine]);
-            currentLine++;
+            // typeWriter.StartTyping(dialogueLines[currentLine]);
+            // currentLine++;
         }
     }
 }
