@@ -19,22 +19,31 @@ public class CheckPoint : MonoBehaviour
             glowEffect.SetActive(false);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
-        if (activated) return; 
+        if (!activated)
+        {
+            activated = true;
 
-        activated = true;
+            if (glowEffect != null)
+                glowEffect.SetActive(true);
 
-        if (glowEffect != null)
-            glowEffect.SetActive(true);
-
-        if (audioSource != null && checkSFX != null)
-            audioSource.PlayOneShot(checkSFX);
+            if (audioSource != null && checkSFX != null)
+                audioSource.PlayOneShot(checkSFX);
+        }
 
         PlayerRespawn respawn = other.GetComponent<PlayerRespawn>();
         if (respawn != null)
             respawn.SetCheckpoint(transform);
+
+        // Fill Health
+        Health health = other.GetComponent<Health>();
+        if (health != null)
+            health.ResetHealth();
+        // Fill Soul
+        if (SoulManager.Instance != null)
+            SoulManager.Instance.ResetSoul();
 
         PlayerController playerController = other.GetComponent<PlayerController>();
         if (playerController != null)

@@ -9,7 +9,7 @@ public class PlayerDamage : MonoBehaviour
         if (!collision.CompareTag("Enemy")) return;
 
         Vector2 hitDir = (collision.transform.position - transform.parent.position).normalized;
-         
+        
         
         // Enemy KAPPA
 
@@ -22,7 +22,8 @@ public class PlayerDamage : MonoBehaviour
         EnemyControllers enemy = collision.GetComponent<EnemyControllers>();
         if (enemy != null)
         {
-            enemy.TakeDamage(hitDir); 
+            enemy.TakeDamage(hitDir);
+            SoulManager.Instance.AddSoul(10);
         }
 
 
@@ -36,6 +37,7 @@ public class PlayerDamage : MonoBehaviour
             collision.GetComponent<Enemy2Controller>();
         if (enemy2 != null)
             enemy2.TakeDamage(hitDir);
+        SoulManager.Instance.AddSoul(10);
 
 
         // Enemy LANTERN
@@ -46,6 +48,6 @@ public class PlayerDamage : MonoBehaviour
         Enemy3Controller enemy3 = collision.GetComponent<Enemy3Controller>();
         if (enemy3 != null)
             enemy3.TakeDamage(hitDir);
-
+        SoulManager.Instance.AddSoul(10);
     }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class EnemyControllers : MonoBehaviour
 {
+    //ENEMY KAPPA
     public Transform player;
     public float moveSpeed = 3f;
     public float detectionRange = 10f;
@@ -18,6 +19,8 @@ public class EnemyControllers : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private Collider2D enemyCollider;
+    private Collider2D playerCollider;
 
     private bool isFacingRight = true;
     private bool isFollowing = false;
@@ -47,6 +50,14 @@ public class EnemyControllers : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        enemyCollider = GetComponent<Collider2D>();
+
+        if (player != null)
+        {
+            playerCollider = player.GetComponent<Collider2D>();
+            // IGNORE COLLISION
+            Physics2D.IgnoreCollision(enemyCollider, playerCollider, true);
+        }
     }
 
     private void Update()

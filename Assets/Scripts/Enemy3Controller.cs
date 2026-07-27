@@ -3,18 +3,19 @@ using System.Collections;
 
 public class Enemy3Controller : MonoBehaviour
 {
+    //ENEMY LANTERN
     [Header("Player Setting")]
     private Animator animator;
 
-    public float patrolSpeed = 2f;      
-    public float patrolRange = 3f;       
+    public float patrolSpeed = 2f;
+    public float patrolRange = 3f;
     private Vector3 startPos;
     public Transform player;
     public float detectionRange = 5f;
     public float followSpeed = 4f;
 
     [Header("Attack")]
-    public float attackRange = 1f;         
+    public float attackRange = 1f;
     public float attackCooldown = 1f;
     public Collider2D damageCollider;
 
@@ -27,6 +28,11 @@ public class Enemy3Controller : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip attackSFX;
 
+    [Header("Collision Damage")]
+    public int collisionDamage = 1;
+    public float collisionCooldown = 0.5f;
+    private float lastCollisionTime = 0f;
+
     private void Awake()
     {
         startPos = transform.position;
@@ -34,7 +40,7 @@ public class Enemy3Controller : MonoBehaviour
         if (spriteRenderer == null)
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
-        animator = GetComponent<Animator>(); 
+        animator = GetComponent<Animator>();
 
     }
 
@@ -58,7 +64,7 @@ public class Enemy3Controller : MonoBehaviour
         }
         else
         {
-            Patrol(); 
+            Patrol();
         }
 
     }
@@ -150,5 +156,47 @@ public class Enemy3Controller : MonoBehaviour
         transform.position += -new Vector3(hitDir.x, hitDir.y, 0) * 0.5f;
 
         yield return null;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+
+            if (Time.time - lastCollisionTime >= collisionCooldown)
+            {
+                PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+
+                if (playerController != null && !playerController.isDead && !playerController.isInvincible)
+                {
+
+                    Vector2 hitDirection = (collision.transform.position - transform.position).normalized;
+
+                    playerController.TakeDamage(collisionDamage, hitDirection);
+
+                    lastCollisionTime = Time.time;
+
+                    Debug.Log("Enemy hit player on collision!");
+                }
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (Time.time - lastCollisionTime >= collisionCooldown)
+            {
+                PlayerController playerController = other.GetComponent<PlayerController>();
+
+                if (playerController != null && !playerController.isDead && !playerController.isInvincible)
+                {
+                    Vector2 hitDirection = (other.transform.position - transform.position).normalized;
+                    playerController.TakeDamage(collisionDamage, hitDirection);
+                    lastCollisionTime = Time.time;
+                }
+            }
+        }
     }
 }

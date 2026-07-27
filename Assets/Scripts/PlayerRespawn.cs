@@ -51,6 +51,9 @@ public class PlayerRespawn : MonoBehaviour
 
         if (playerHealth != null)
             playerHealth.ResetHealthAnimated(0.5f);
+
+        if (SoulManager.Instance != null)
+            SoulManager.Instance.ResetSoul();
     }
 
     private IEnumerator Fade(float from, float to)

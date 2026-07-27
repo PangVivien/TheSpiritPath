@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Enemy2Controller : MonoBehaviour
 {
+    //ENEMY UMBRELLA
     [Header("PlayerSetting")]
     public Transform player;
     public SpriteRenderer spriteRenderer;
@@ -10,6 +11,8 @@ public class Enemy2Controller : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private Collider2D enemyCollider;
+    private Collider2D playerCollider;
 
     private bool isFacingRight = true;
     private bool isAttacking = false;
@@ -50,6 +53,18 @@ public class Enemy2Controller : MonoBehaviour
 
         if (audioSource == null)
             audioSource = GetComponent<AudioSource>();
+    }
+
+    private void Start()
+    {
+        enemyCollider = GetComponent<Collider2D>();
+
+        if (player != null)
+        {
+            playerCollider = player.GetComponent<Collider2D>();
+            // IGNORE COLLISION
+            Physics2D.IgnoreCollision(enemyCollider, playerCollider, true);
+        }
     }
 
     private void Update()

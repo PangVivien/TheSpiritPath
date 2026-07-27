@@ -12,6 +12,10 @@ public class PlayerHeal : MonoBehaviour
     private PlayerController player;
     private Health health;
 
+    [Header("Soul Settings")]
+    public float soulCostPerHeal = 20f;
+    public float soulDrainSpeed = 20f;
+
     private Coroutine rumbleCoroutine;
     [SerializeField] private CameraFollow cameraFollow;
 
@@ -61,6 +65,14 @@ public class PlayerHeal : MonoBehaviour
         if (rumbleCoroutine != null) StopCoroutine(rumbleCoroutine);
         rumbleCoroutine = StartCoroutine(HealRumble());
 
+        // Check Soul B4 Heal
+        if (!SoulManager.Instance.HasSoul(soulCostPerHeal))
+        {
+            BreakHeal(originalSpeed);
+            yield break;
+        }
+
+
         float timer = 0f;
 
         while (timer < healTime)
@@ -71,6 +83,15 @@ public class PlayerHeal : MonoBehaviour
                 BreakHeal(originalSpeed);
                 yield break;
             }
+
+            // Stop NO Soul
+            if (!SoulManager.Instance.HasSoul(Time.deltaTime * soulDrainSpeed))
+            {
+                BreakHeal(originalSpeed);
+                yield break;
+            }
+
+            SoulManager.Instance.DrainSoul(Time.deltaTime * soulDrainSpeed);
 
             timer += Time.deltaTime;
             yield return null;
