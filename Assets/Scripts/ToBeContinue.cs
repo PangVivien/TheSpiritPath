@@ -1,11 +1,16 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class ToBeContinue : MonoBehaviour
 {
+    public GameObject endingImage;
+    public VideoPlayer endingVideo;
+
     [SerializeField] private GameObject endPanel;
     [SerializeField] private string mainMenuScene = "MainMenu";
 
@@ -18,13 +23,19 @@ public class ToBeContinue : MonoBehaviour
         if (!other.CompareTag("Player")) return;
 
         triggered = true;
-        endPanel.SetActive(true);
-        StartCoroutine(WaitBeforeInput());
+        endingImage.SetActive(true);
+
+        endingVideo.loopPointReached += OnVideoFinished;
+        endingVideo.Play();
+
     }
 
-    private System.Collections.IEnumerator WaitBeforeInput()
+    private void OnVideoFinished(VideoPlayer vp)
     {
-        yield return new WaitForSeconds(1.5f);
+        endingVideo.loopPointReached -= OnVideoFinished;
+
+        endPanel.SetActive(true);
+
         canProceed = true;
 
         InputSystem.onAnyButtonPress.CallOnce(_ =>

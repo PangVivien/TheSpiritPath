@@ -6,6 +6,8 @@ public class Enemy3Controller : MonoBehaviour
     //ENEMY LANTERN
     [Header("Player Setting")]
     private Animator animator;
+    private Collider2D enemyCollider;
+    private Collider2D playerCollider;
 
     public float patrolSpeed = 2f;
     public float patrolRange = 3f;
@@ -42,6 +44,18 @@ public class Enemy3Controller : MonoBehaviour
 
         animator = GetComponent<Animator>();
 
+    }
+
+    private void Start()
+    {
+        enemyCollider = GetComponent<Collider2D>();
+
+        if (player != null)
+        {
+            playerCollider = player.GetComponent<Collider2D>();
+            // IGNORE COLLISION
+            Physics2D.IgnoreCollision(enemyCollider, playerCollider, true);
+        }
     }
 
     private void Update()

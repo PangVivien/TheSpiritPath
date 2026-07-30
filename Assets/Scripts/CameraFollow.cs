@@ -31,7 +31,7 @@ public class CameraFollow : MonoBehaviour
         lookOffset = new Vector3(rightStickInput.x, rightStickInput.y, 0f) * lookRange;
 
         // Camera Position
-        Vector3 targetPosition = target.position + offset + new Vector3(0f, 0f, currentZoom) + lookOffset;
+        Vector3 targetPosition = target.position + offset + new Vector3(0f, 1f, currentZoom) + lookOffset;
         transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, followSmoothTime);
     }
 
