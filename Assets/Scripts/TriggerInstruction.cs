@@ -8,7 +8,6 @@ public class TriggerInstruction : MonoBehaviour
     public GameObject keyboardInstructions;
     public GameObject controllerInstructions;
 
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;

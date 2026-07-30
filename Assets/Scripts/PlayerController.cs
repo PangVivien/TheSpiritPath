@@ -46,6 +46,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioSource slashSFXSource;
     private bool wasGrounded;
 
+    private bool isDialogueActive = false;
+
     private float walkTimer;
 
     public static PlayerController Instance;
@@ -138,6 +140,7 @@ public class PlayerController : MonoBehaviour
         Mathf.Abs(horizontal) > 0.1f &&
         IsGrounded() &&
         !isPaused &&
+        !isDialogueActive &&  
         !isDead;
 
         if (isWalking)
@@ -172,6 +175,8 @@ public class PlayerController : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
+        if (isDialogueActive || isPaused || isDead) return;
+
         if (context.performed)
         {
             jumpPressed = true;
@@ -349,7 +354,35 @@ public class PlayerController : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
+        if (isDialogueActive || isPaused || isDead)
+        {
+            horizontal = 0f;
+            return;
+        }
+
         horizontal = context.ReadValue<Vector2>().x;
+    }
+
+    public void SetDialogueActive(bool active)
+    {
+        isDialogueActive = active;
+        if (isDialogueActive)
+        {
+            // Stop Movement
+            horizontal = 0f;
+            rb.linearVelocity = Vector2.zero;
+
+            // Force IDLE
+            animator.SetFloat("isWalking", 0f);
+            animator.SetBool("isJumping", false);
+            animator.SetBool("isFalling", false);
+            animator.speed = 1f;
+
+            if (audioSource != null && audioSource.isPlaying && audioSource.clip == walkClip)
+            {
+                audioSource.Stop();
+            }
+        }
     }
 
     public void SetPaused(bool paused)
@@ -359,12 +392,19 @@ public class PlayerController : MonoBehaviour
         if (paused)
         {
             rb.linearVelocity = Vector2.zero;
-            animator.speed = 0f; 
+            animator.speed = 0f;
+
+            // STOP WALKING AUDIO IMMEDIATELY
+            if (audioSource != null && audioSource.isPlaying && audioSource.clip == walkClip)
+            {
+                audioSource.Stop();
+            }
         }
         else
         {
             animator.speed = 1f;
         }
     }
+
 }
 

@@ -7,6 +7,7 @@ public class EndScene : MonoBehaviour
     [SerializeField] private GameObject NPC;
     [SerializeField] private GameObject FoxNPC;
     [SerializeField] private GameObject Ryokan;
+    [SerializeField] private GameObject endLight;
 
     [SerializeField] private GameObject Kappa;
     [SerializeField] private GameObject Lantern;
@@ -20,6 +21,7 @@ public class EndScene : MonoBehaviour
         NPC.SetActive(false);
         FoxNPC.SetActive(true);
         Ryokan.SetActive(false);
+        endLight.SetActive(true);
 
         Kappa.SetActive(true);
         Lantern.SetActive(true);

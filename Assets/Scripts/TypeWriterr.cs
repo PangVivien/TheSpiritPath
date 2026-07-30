@@ -10,10 +10,17 @@ public class TypeWriterr : MonoBehaviour
     private Coroutine typingCoroutine;
     private bool isTyping = false;
 
+    private NPC_Controller npcController;
+
     private void Awake()
     {
         textMesh = GetComponent<TMP_Text>();
         textMesh.text = "";
+
+        // Find NPC Controller
+        npcController = GetComponentInParent<NPC_Controller>();
+        if (npcController == null)
+            npcController = FindObjectOfType<NPC_Controller>();
     }
 
     public void StartTyping(string text)
